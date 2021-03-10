@@ -1,266 +1,424 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+  <head>
+    <title>Josh Gilley Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
 
-<head>
-	<title>Josh Gilley Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="fas fa-code fa-lg"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>Joshua Gilley</h1>
+            <p>Software Developer</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a style="color: #ffffff" href="#about">About</a></li>
+            <li><a style="color: #ffffff" href="#work">Work</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+          </ul>
+        </nav>
+      </header>
 
-<body class="is-preload">
+      <!-- Main -->
+      <div id="main">
+        <!-- Work -->
+        <article id="work">
+          <h2 class="major">Work</h2>
+          <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+          <div>
+            <h1 style="display: inline-block">ATI Intern</h1>
+            <a
+              style="display: inline-block; color: #79797d"
+              href="https://www.ati.org/"
+              target="_blank"
+              ><span class="label">Advanced Technology International</span></a
+            >
+          </div>
 
-		<!-- Header -->
-		<header id="header">
-			<div class="logo">
-				<span class="fas fa-code fa-lg"></span>
-			</div>
-			<div class="content">
-				<div class="inner">
-					<h1>Joshua Gilley</h1>
-					<p>Software Developer</p>
-				</div>
-			</div>
-			<nav>
-				<ul>
+          <p>
+            Advanced Technology International is a leader in collaboration
+            management. We manage teams of large and small businesses, academic
+            institutions, and nonprofit organizations to conduct research and
+            develop new technologies for our federal clients. As a software
+            engineering intern, my responsibilities include making additions to
+            the front and back end. The majority of my contributions have been
+            to
+            <a target="_blank" href="https://www.alastar.com/">Alastar</a>
+            , a tool built to increase awareness of complex situations to
+            improve public safety operations and emergency response. My most
+            recent priorities have been to test and add input validation to the
+            forms that our clients fill out. This is to make sure that the
+            passwords, emails, phone numbers, etc. are valid. I've also
+            completed an ingestion that will run as a cron job to update the
+            metadata of every running camera connected to Alastar on a short
+            scheduled time.
+          </p>
 
-					<li><a style="color: #ffffff" href="#about">About</a></li>
-					<li><a style="color: #ffffff" href="#work">Work</a></li>
-					<!--<li><a href="#elements">Elements</a></li>-->
-				</ul>
-			</nav>
-		</header>
+          <a
+            style="display: inline-block"
+            href="https://github.com/joshuadgilley/MarsMapMaker"
+            target="_blank"
+            class="icon brands fa-github"
+            ><span class="label"></span
+          ></a>
+          <div>
+            <!--href="https://mars-map-maker.vercel.app"-->
+            <h1 style="display: inline-block">MARS MapMaker</h1>
+            <a
+              style="display: inline-block; color: #79797d"
+              href="https://github.com/CIRDLES/MarsMapMaker"
+              target="_blank"
+              ><span class="label">Follow README to Demo</span></a
+            >
+          </div>
 
-		<!-- Main -->
-		<div id="main">
+          <p>
+            MARS MapMaker is a client side ReactJS application that was created
+            to work in tandem with
+            <a target="_blank" href="http://cirdles.org/projects/mars/">MARS</a>
+            from <a target="_blank" href="http://cirdles.org/">CIRDLES</a>. The
+            purpose of this map maker is to allow geologists to properly
+            register their rock samples with
+            <a target="_blank" href="https://www.geosamples.org/">SESAR</a>
+            (System for Earth Sample Registration) in order to aquire their IGSN
+            (International Geo Sample Number). This is accomplished by providing
+            a user interface which allows the user to map the various fields of
+            their metadata to the corresponding field in the SESAR database.
+            After the map is complete, a javascript mapping file is created to
+            automate the process for obtaining the IGSN. This project is
+            currently being tested by Columbia University.
+          </p>
 
+          <a
+            href="https://github.com/joshuadgilley/Another-One-Bytes-the-Dust"
+            target="_blank"
+            class="icon brands fa-github"
+            ><span class="label"></span
+          ></a>
 
-			<!-- Work -->
-			<article id="work">
-				<h2 class="major">Work</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+          <div>
+            <h1 style="display: inline-block">Moodle Testing Framework</h1>
+          </div>
+          <p>
+            <a target="_blank" href="https://moodle.org/">Moodle</a> is a free
+            and open-source learning management system written in PHP and
+            distributed under the GNU General Public License. In order to combat
+            existing bugs in Moodle, my team and I set out to produce a testing
+            framework to help Moodle developers better identify some of the
+            potential issues in their code. We designed the framework so that,
+            if a developer is interested in testing a specific method within a
+            class, they would have to do a few things. First, add a test case to
+            the test case folder that follows the requirements of the testing
+            template. After adding the test case, the developer would also
+            create a simple driver in the "testCasesExecutables" folder that
+            follows the driver template and voila! We wanted to build a
+            framework that was both intuitive and made the testing of classes
+            and methods easy.
+          </p>
 
-				<div>
-					<h1 style="display:inline-block">ATI Intern</h1>
-					<a style="display:inline-block; color:#79797d" href="https://www.ati.org/" target="_blank"><span
-							class="label">Advanced Technology International</span></a>
-				</div>
+          <a
+            href="https://github.com/joshuadgilley/CirdlesWebServices"
+            target="_blank"
+            class="icon brands fa-github"
+            ><span class="label"></span
+          ></a>
 
-				<p>Advanced Technology International is a leader in collaboration management. We manage teams of large
-					and small businesses, academic institutions, and nonprofit organizations to conduct research and
-					develop new technologies for our federal clients. As a software engineering intern, my
-					responsibilities include making additions to the front and back end. The majority of my
-					contributions
-					have been to
-					<a target="_blank" href="https://www.alastar.com/">Alastar</a>
-					, a tool built to increase awareness of complex situations to improve public safety operations and
-					emergency response. My most recent priorities have been to test and add input validation to the
-					forms that our clients fill out. This is to make sure that the passwords, emails, phone numbers,
-					etc. are
-					valid. I've also completed an ingestion that will run as a cron job to update the metadata of
-					every
-					running camera connected to Alastar on a short scheduled time.</p>
+          <div>
+            <h1 style="display: inline-block">Squid Web Service</h1>
+            <a style="display: inline-block; color: #79797d" href="#"></a>
+          </div>
+          <p>
+            Squid 3.0 is the replacement for Squid 2.5. Its goal is to provide
+            full workflow support for processing and interpreting Shrimp data
+            outputs in the form of Prawn xml files and ‘OP’ files including:
+            project, data, task, expression, visualizations, report, and
+            parameters management. My partner and I were responsible for getting
+            the project off of the ground through the use of containerized user
+            sessions via docker and java servlets.
+          </p>
 
-				<a style="display:inline-block" href="https://github.com/joshuadgilley/MarsMapMaker" target="_blank"
-					class="icon brands fa-github"><span class="label"></span></a>
-				<div>
-					<h1 style="display:inline-block">MARS MapMaker</h1>
-					<a style="display:inline-block; color:#79797d" href="https://mars-map-maker.vercel.app"
-						target="_blank"><span class="label">Demo</span></a>
-				</div>
+          <a
+            href="https://framer.com/share/Team-Vista--5eaG0U5D97ZCI7goXeGN/onyLO2nFXz0QNrpQPnkomS-9%3A60nt1q432v6ao"
+            target="_blank"
+            class="fas fa-link"
+            ><span class="label"></span
+          ></a>
 
-				<p>MARS MapMaker is a client side ReactJS application that was created to work in tandem with <a
-						target="_blank" href="http://cirdles.org/projects/mars/">MARS</a> from
-					<a target="_blank" href="http://cirdles.org/">CIRDLES</a>. The
-					purpose of this map maker is to allow geologists to
-					properly register their rock samples with <a target="_blank"
-						href="https://www.geosamples.org/">SESAR</a> (System for Earth Sample Registration) in order to
-					aquire
-					their IGSN (International Geo Sample Number). This is accomplished by providing a user interface
-					which
-					allows the user to map the various fields of their metadata to the corresponding field in the SESAR
-					database. After the map is complete, a javascript mapping file is created to automate the process
-					for obtaining the IGSN. This project is currently being tested
-					by Columbia University.</p>
+          <h1>RISE UI/UX Prototype</h1>
+          <p>
+            Capgemini is a global leader in consulting, technology services and
+            digital transformation. Every year, the company hosts a national
+            competition for invitees to demonstrate their abilities. Competitors
+            were required to create an application that solved a particular
+            problem statement. This included illustrating a plan of development,
+            its architecture, a full business model, and a working prototype
+            with some working code. Each participant had 72 hours to complete
+            the project with their 5 person team. After winning the regional
+            competition for the southeast, my team went on to win the national
+            competition against San Francisco, Dallas, & New York. Click the
+            link above to see our working prototype!
+          </p>
+          <h1>Other Projects</h1>
+          <ul>
+            <div>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                  margin-bottom: 0px;
+                "
+              >
+                Password Cracking Tool
+              </p>
+              <a
+                style="display: inline-block; padding-left: 5px"
+                href="https://github.com/joshuadgilley/passwrd_cracker"
+                target="_blank"
+                class="icon brands fa-github"
+                ><span class="label"></span
+              ></a>
+            </div>
+            <div>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                  margin-bottom: 0px;
+                "
+              >
+                Hash Dictionary
+              </p>
+              <a
+                style="display: inline-block; padding-left: 5px"
+                href="https://github.com/joshuadgilley/hash-dictionary"
+                target="_blank"
+                class="icon brands fa-github"
+                ><span class="label"></span
+              ></a>
+            </div>
+            <div>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                  margin-bottom: 0px;
+                "
+              >
+                Cache Speed
+              </p>
+              <a
+                style="display: inline-block; padding-left: 5px"
+                href="https://github.com/joshuadgilley/CacheAndExecutionSpeed"
+                target="_blank"
+                class="icon brands fa-github"
+                ><span class="label"></span
+              ></a>
+            </div>
+          </ul>
+          <h1>Notable Coursework</h1>
+          <ul>
+            <div>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                UI/UX Development
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Software Engineering
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Operating Systems
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Advanced Algorithms
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Data Structures & Algorithms
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Network Security
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Java Programming
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Programming Languages
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Database Concepts
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Linear Algebra / Discrete Math
+              </p>
+              <p
+                style="
+                  font-size: 18px;
+                  display: inline-block;
+                  padding-left: 10px;
+                "
+              >
+                Assembly Language Programming
+              </p>
+            </div>
+          </ul>
+        </article>
 
-				<a href="https://github.com/joshuadgilley/Another-One-Bytes-the-Dust" target="_blank"
-					class="icon brands fa-github"><span class="label"></span></a>
+        <!-- About -->
+        <article id="about">
+          <h2 class="major">About</h2>
+          <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 
-				<div>
-					<h1 style="display:inline-block">Moodle Testing Framework</h1>
-				</div>
-				<p><a target="_blank" href="https://moodle.org/">Moodle</a> is a free and open-source learning
-					management system written in PHP and distributed under the
-					GNU General Public License. In order to combat existing bugs in Moodle, my team and I
-					set
-					out to produce a testing framework to help Moodle developers better identify some of the potential
-					issues
-					in their code. We designed the framework so that, if a developer is interested in testing a specific
-					method within a class, they would have to do a few things. First, add a test case to the
-					test case folder that
-					follows the requirements of the testing template. After adding the test case, the developer would
-					also create a simple driver in the "testCasesExecutables" folder that follows the driver template
-					and voila! We wanted to build a framework that was both intuitive and made the testing of classes
-					and
-					methods easy.</p>
+          <p>
+            An intelligent, dynamic, and focused software developer. Highly
+            motivated and reliable with proven success in designing,
+            implementing and integrating cost-effective, high-performance
+            technical solutions to meet challenging business needs.
+          </p>
 
+          <p class="minor">Education</p>
+          <ul>
+            <p style="padding: 0px; margin: 0px; font-size: 20px">
+              College of Charleston (2021)
+            </p>
+            <li>Bachelor of Science in Computer Science</li>
+            <li>Honors: cum laude (GPA: 3.7/4.0)</li>
+            <li>
+              Research Assistant for
+              <a target="_blank" href="http://cirdles.org/">CIRDLES</a>
+            </li>
+          </ul>
+          <ul>
+            <p style="padding: 0px; margin: 0px; font-size: 20px">Skills</p>
+            <li>
+              Discussing clients' requirements and proposed solutions with
+              relevant constituencies
+            </li>
+            <li>Writing and testing code</li>
+            <li>Collaborating with other developers</li>
+            <li>Freelance web development</li>
+            <li>
+              Integrated development environments (VS Code, IntelliJ, Pycharm)
+            </li>
+            <li>Source control management (Git)</li>
+            <li>Test driven development</li>
+            <li>Database management (MySQL, MongoDB)</li>
+            <li>Server-side programming (NodeJS)</li>
+            <li>Deployment of Software</li>
+            <li>UI/UX (Lo to Hi Fidelity Prototyping with Figma/Framer)</li>
+          </ul>
 
+          <p class="minor">Achievements</p>
+          <ul>
+            National Winner of
+            <a target="_blank" href="https://www.capgemini.com/us-en/"
+              >Capgemini</a
+            >'s 2020 RISE Program
+          </ul>
+        </article>
+      </div>
 
-				<a href="https://github.com/joshuadgilley/CirdlesWebServices" target="_blank"
-					class="icon brands fa-github"><span class="label"></span></a>
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">joshdgilley@gmail.com</p>
+      </footer>
+    </div>
 
-				<div>
-					<h1 style="display:inline-block">Squid Web Service</h1>
-					<a style="display:inline-block; color:#79797d" href="#"></a>
-				</div>
-				<p>Squid 3.0 is the replacement for Squid 2.5. Its goal is to provide full workflow support for
-					processing
-					and interpreting
-					Shrimp data outputs in the form of Prawn xml files and ‘OP’ files including: project, data, task,
-					expression, visualizations, report, and parameters management. My partner and I were responsible for
-					getting the
-					project off of the ground through the use of containerized user sessions
-					via docker and java servlets.</p>
+    <!-- BG -->
+    <div id="bg"></div>
 
-				<a href="https://framer.com/share/Team-Vista--5eaG0U5D97ZCI7goXeGN/onyLO2nFXz0QNrpQPnkomS-9%3A60nt1q432v6ao"
-					target="_blank" class="fas fa-link"><span class="label"></span></a>
-
-				<h1>RISE UI/UX Prototype</h1>
-				<p>Capgemini is a global leader in consulting, technology services and digital transformation. Every
-					year, the company hosts a national competition for invitees to demonstrate their abilities.
-					Competitors were required to create an application that solved a particular problem statement. This
-					included illustrating a
-					plan of development, its architecture, a full business model, and a working prototype with some
-					working code. Each participant had 72 hours to complete the project with their 5 person team. After
-					winning the regional competition for the southeast, my team went on to win the national competition
-					against San
-					Francisco, Dallas, & New York. Click the link above to see our working prototype!</p>
-				<h1>Other Projects</h1>
-				<ul>
-					<div>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px; margin-bottom: 0px">
-							Password Cracking Tool</p>
-						<a style="display:inline-block; padding-left:5px;"
-							href="https://github.com/joshuadgilley/passwrd_cracker" target="_blank"
-							class="icon brands fa-github"><span class="label"></span></a>
-					</div>
-					<div>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px; margin-bottom: 0px">Hash
-							Dictionary</p>
-						<a style="display:inline-block; padding-left:5px;"
-							href="https://github.com/joshuadgilley/hash-dictionary" target="_blank"
-							class="icon brands fa-github"><span class="label"></span></a>
-					</div>
-					<div>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px; margin-bottom: 0px">Cache
-							Speed</p>
-						<a style="display:inline-block; padding-left:5px;"
-							href="https://github.com/joshuadgilley/CacheAndExecutionSpeed" target="_blank"
-							class="icon brands fa-github"><span class="label"></span></a>
-					</div>
-				</ul>
-				<h1>Notable Coursework</h1>
-				<ul>
-					<div>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">UI/UX Development</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Software Engineering</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Operating Systems</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Advanced Algorithms</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Data Structures & Algorithms
-						</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Network Security</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Java Programming</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Programming Languages</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Database Concepts</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Linear Algebra / Discrete
-							Math</p>
-						<p style="font-size:18px; display:inline-block; padding-left: 10px">Assembly Language
-							Programming</p>
-
-
-
-
-
-					</div>
-				</ul>
-			</article>
-
-			<!-- About -->
-			<article id="about">
-				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-
-				<p>An intelligent, dynamic, and focused software developer. Highly motivated and reliable with proven
-					success in
-					designing,
-					implementing and integrating cost-effective, high-performance technical solutions to meet
-					challenging
-					business needs.</p>
-
-				<p class="minor">Education</p>
-				<ul>
-					<p style="padding:0px; margin:0px; font-size:20px;">College of Charleston (2021)</p>
-					<li>Bachelor of Science in Computer Science</li>
-					<li>Honors: cum laude (GPA: 3.7/4.0)</li>
-					<li>Research Assistant for
-						<a target="_blank" href="http://cirdles.org/">CIRDLES</a></li>
-				</ul>
-				<ul>
-					<p style="padding:0px; margin:0px; font-size:20px;">Skills</p>
-					<li>Discussing clients' requirements and proposed solutions with relevant constituencies</li>
-					<li>Writing and testing code</li>
-					<li>Collaborating with other developers</li>
-					<li>Freelance web development</li>
-					<li>Integrated development environments (VS Code, IntelliJ, Pycharm)</li>
-					<li>Source control management (Git)</li>
-					<li>Test driven development</li>
-					<li>Database management (MySQL, MongoDB)</li>
-					<li>Server-side programming (NodeJS)</li>
-					<li>Deployment of Software</li>
-					<li>UI/UX (Lo to Hi Fidelity Prototyping with Figma/Framer)</li>
-
-				</ul>
-
-				<p class="minor">Achievements</p>
-				<ul>National Winner of <a target="_blank" href="https://www.capgemini.com/us-en/">Capgemini</a>'s 2020
-					RISE Program
-
-				</ul>
-
-			</article>
-
-
-
-		</div>
-
-		<!-- Footer -->
-		<footer id="footer">
-			<p class="copyright">joshdgilley@gmail.com</p>
-		</footer>
-
-	</div>
-
-	<!-- BG -->
-	<div id="bg"></div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
